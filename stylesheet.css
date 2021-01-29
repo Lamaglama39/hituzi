@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    background-color: rgb(168, 139, 85);
+  }
+  
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: gray;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    opacity: 0.7;
+  }
+  
+  .header-left {
+    float: left;
+    font-size: 15px;
+    color: honeydew;
+  }
+  
+  
+
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://images.unsplash.com/photo-1511117833895-4b473c0b85d6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 700px;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.9;
+    font-size: 45px;
+    letter-spacing: 5px;
+    color: gainsboro;
+    margin-bottom: 1000px;
+    font-weight: bold;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+  }
+   
+  .text-wrapper {
+    text-align: center;
+    position: relative;
+    background: #e2bd66;
+    box-shadow: 0px 0px 0px 5px #a07510;
+    border: dashed 2px white;
+    color: #454545;
+}
+
+.text-wrapper:after {
+    position: absolute;
+    content: '';
+    right: -7px;
+    top: -7px;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: #ffdb88 #fff #ffdb88;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+  
+    
+  .text-wrapper h2 {
+   font-size: 25px;
+  }
+  
+ 
+ 
+  
+  
+  
+  
+  
+  
+  .lesson-wrapper {
+    
+    background-color: rgb(107, 160, 86);
+    text-align: center;
+    height: 1000px;
+    margin-top: auto;
+
+    padding: 1em;
+    margin: 2em auto;
+    width: 90%;
+    background: #d1b28b;
+    box-shadow: 0px 0px 0px 10px #856742;
+    border: 2px dashed #fff;
+  }
+  
+.heading {
+ padding-top: 50pxs;
+  margin: 2em auto; 
+ padding: 1em 1.5em;
+ width: 90%; /*幅の調節*/
+ color:rgb(65, 65, 65); /* 文字色 */
+ background-color:#dfdfdf; /* 背景色 */
+ border: 4px solid rgb(90, 89, 89); /*線の太さ・色*/
+ border-radius: 3em .8em 3em .7em/.9em 2em .8em 3em;
+}
+  
+  .heading h2 {
+      margin: 0; 
+      padding: 0;
+  }
+  
+  
+  
+  .lesson {
+    float: left;
+    width: 50%;
+    position: relative;
+  }
+
+  .lesson-icon {
+    border: 7px solid rgb(117, 98, 73);
+    float: left;
+    margin-left: 50px;
+  }
+  
+  .lesson-icon p {
+    color: black;
+    font-size: 20px;
+    font-weight:bold;
+    
+  }
+  
+  .text-contents {
+    font-size: 20px;
+    color: black;
+    float: left;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .sns {
+    position: relative;
+    margin: 2em auto;
+    padding: 1.2em;
+    width: 100%;
+    color: #555555;
+    background-color: rgb(241, 241, 235);
+    border: 5px solid #1b831b;
+    width: 80%;
+    }
+    .sns .sns-title{
+    position: absolute;
+    padding: 0 .5em;
+    left: 20px;
+    top: -15px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #8FBC8F;
+    }
+    .sns p {
+    padding: 15px 20px;
+    margin: 0;
+    font-size: 15px;
+    color: black;
+    }
+    .flowbtn11{
+      font-family:'Verdana',sans-serif;	
+      border-radius:4px;
+      position:relative;
+      display:inline-block;
+      width:50%;
+      height:50px;
+      font-size:20px;
+      color:#fff!important;
+      text-decoration:none;
+      margin-bottom:5px;
+
+      }
+      /* Twitter */
+      .fl_tw1{
+      background:#55acee;
+      }
+      .flowbtn11 .fa-twitter{
+        top: 10px;
+        position:relative;
+      z-index:1;	
+      }
+      /* Instagramアイコン位置 */
+      .insta_btn11 .fa-instagram{
+      position:relative;
+      z-index:1;	
+      top: 10px;
+      }
+      /* Instagram紫グラデ背景色 */
+      .insta_btn11{
+      background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+      background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+      overflow:hidden;
+      }
+      /* Instagramオレンジグラデ背景色 */
+      .insta_btn11:before{
+      content: '';
+      position:absolute;
+      top:17px;
+      left:-75px;
+      width:100%;
+      height:100%;
+      background:-webkit-radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 45%, rgba(255, 88, 96, 0) 80%);
+      background:radial-gradient(#ffdb2c 5%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 80%);
+      }
+      
+      .flowbtn11:hover span{
+        -webkit-transform: rotateX(360deg);
+        -ms-transform: rotateX(360deg);
+        transform: rotateX(360deg);
+        text-decoration:none;
+        }
+        /* ボタン内テキスト調整 */
+        .flowbtn11 span{
+        font-size:14px;	
+        position:relative;
+        left:8px;
+        bottom:2px;
+        top: 10px;
+        transition:.6s;	
+        display:inline-block;	
+        }
+        /* ulタグの内側余白を０にする */
+        ul.snsbtniti2{
+        padding:0!important;
+        }
+        /* アイコンボタンの位置調整 */
+        .snsbtniti2{
+        display:flex;
+        flex-flow:row wrap;
+        }
+        /* アイコンボタン同士の余白調整 */
+        .snsbtniti2 li{
+        flex:0 0 48%;
+        text-align:center!important;
+        }
